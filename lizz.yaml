@@ -1,8 +1,8 @@
 name: voltalis-relay
 values:
-  password:
-    - name: username
-    - name: password
+  voltalis_password:
+    - name: voltalis_username
+    - name: voltalis_password
 encryption:
   enabled: true
   inputPaths:
