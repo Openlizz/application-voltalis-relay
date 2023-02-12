@@ -1,0 +1,9 @@
+name: vinted-notifier
+values:
+  password:
+    - name: username
+    - name: password
+encryption:
+  enabled: true
+  inputPaths:
+    - base/secret.yaml

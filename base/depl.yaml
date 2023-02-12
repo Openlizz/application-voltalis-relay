@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: voltalisrelay
+  name: voltalisrelay
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: voltalisrelay
+  template:
+    metadata:
+      labels:
+        app: voltalisrelay
+    spec:
+      containers:
+        - image: airklizz/voltalis-relay:latest
+          name: voltalisrelay
+          imagePullPolicy: Always
+          envFrom:
+            - secretRef:
+                name: credentials
