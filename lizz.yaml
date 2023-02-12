@@ -1,4 +1,4 @@
-name: vinted-notifier
+name: voltalis-relay
 values:
   password:
     - name: username
