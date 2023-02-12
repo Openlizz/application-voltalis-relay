@@ -20,8 +20,8 @@ lizz add github \
     --origin-url=https://github.com/openlizz/application-voltalis-relay \
     --path=./ \
     --destination=voltalis-relay \
-    --set-value voltalis_username=$VOLTALIS_USERNAME \
-    --set-value voltalis_password=$VOLTALIS_PASSWORD \
+    --set-value voltalisUsername=$VOLTALIS_USERNAME \
+    --set-value voltalisPassword=$VOLTALIS_PASSWORD \
     --personal
 ```
 
